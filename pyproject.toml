@@ -6,14 +6,9 @@ readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
 dependencies = [
-    "textual>=0.60",
-    "llama-cpp-python>=0.3",
-    "huggingface_hub>=0.24",
-    "lancedb>=0.13",
-    "sentence-transformers>=3.0",
-    "pandas>=2.2",
-    "pydantic>=2.7",
-    "pyyaml>=6.0",
+    "llama-cpp-python>=0.3.34",
+    "sentence-transformers>=5.6.1",
+    "textual>=8.2.8",
 ]
 
 [project.optional-dependencies]
