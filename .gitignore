@@ -1,0 +1,29 @@
+# Meeting content — never commit real notes or the vector DB
+data/raw/*
+!data/raw/.gitkeep
+data/lancedb/*
+!data/lancedb/.gitkeep
+
+# Model weights — too large for git, download via scripts/download_model.sh
+model/*
+!model/.gitkeep
+*.gguf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Env / secrets
+.env
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
