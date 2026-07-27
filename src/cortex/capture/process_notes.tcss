@@ -1,0 +1,13 @@
+/* process_notes.tcss */
+#processed-container {
+    height: 100%;
+}
+
+TextArea {
+    height: 5;
+    margin-bottom: 1;
+}
+
+#meeting-summary {
+    height: 3;
+}
